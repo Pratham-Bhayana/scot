@@ -80,7 +80,7 @@ const About = () => {
           </p>
           
           <div className="flex items-center pl-4">
-            <div className="w-full h-full text-base w:h-full mr-4 ">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.<br/>Offering a comprehensive range of services, from initial estimate to location research, to casting prediction on set and post-production.</div>
+            <div className="w-full h-full text-xs md:text-base w:h-full mr-2 ">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.<br/>Offering a comprehensive range of services, from initial estimate to location research, to casting prediction on set and post-production.</div>
             <p className="text-[#FFC832] text-lg md:text-xl font-playfair"></p>
           </div>
           
@@ -132,7 +132,7 @@ const About = () => {
         </div>
        <div className="flex space-x-5 font-xl mt-8 font-#ffff">
           <a
-            href=""
+            href="https://x.com/AnilAliSharma?t=cOIjnx1NdTzYsFH8o6HoLw&s=09"
             className="text-xl text-[#D4AF37] hover:text-[#FFC832] transition-colors"
             aria-label="Twitter"
           >
