@@ -20,7 +20,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'Indigo',
-      videoUrl: '/assets/IndigoFinal.mov',
+      videoUrl: '/assets/IndigoFinal.mp4',
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       id: 3,
       title: 'Ford Mustang',
-      videoUrl: '/assets/Ford-mustang.mov',
+      videoUrl: '/assets/Ford-mustang.mp4',
     },
 {
     id:4,

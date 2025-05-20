@@ -80,7 +80,7 @@ const About = () => {
           </p>
           
           <div className="flex items-center pl-4">
-            <div className="w-full h-full  w:h-full mr-4">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.</div>
+            <div className="w-full h-full text-base w:h-full mr-4 ">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.<br/>Offering a comprehensive range of services, from initial estimate to location research, to casting prediction on set and post-production.</div>
             <p className="text-[#FFC832] text-lg md:text-xl font-playfair"></p>
           </div>
           
@@ -139,7 +139,7 @@ const About = () => {
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/anil-sharma-4320489?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="text-xl text-[#D4AF37] hover:text-[#FFC832] transition-colors"
             aria-label="Instagram"
           >
