@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"        # <-- your built output folder
+  command = "npm run build"
+
+[dev]
+  command = "npm start"
+  port = 8888
