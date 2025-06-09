@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import RotatingLogo from './RotatingLogo';
 import logoImage from '../assets/scotfreo.jpg'; // adjust path if needed
-import heroVideo from '../assets/SCOTFREO1.mp4';
+import heroVideo from '../assets/Lincoln  Horse.mp4';
 import { cn } from '@/lib/utils';
 import bgImage from '@assets/bg.webp';
 
@@ -73,7 +73,7 @@ const Hero = () => {
           className="hero-video"
           autoPlay
           loop
-          muted
+          
           playsInline
           // controls // optional for debug
         >
