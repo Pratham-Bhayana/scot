@@ -73,7 +73,7 @@ const Hero = () => {
           className="hero-video"
           autoPlay
           loop
-          
+          muted
           playsInline
           // controls // optional for debug
         >
