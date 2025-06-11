@@ -104,7 +104,7 @@ const About = () => {
         <div className="relative z-10">
           <div className="w-12 h-0.5 bg-gradient-to-r from-[#e50914] to-[#ff3b30] mb-4"></div>
           <h3 className="text-xl font-bold text-[#e50914] mb-2 tracking-wider">THE DIRECTOR</h3>
-          <h4 className="text-4xl md:text-5xl mb-8 font-oswald font-bold gold-gradient-text">Anil Sharma</h4>
+          <h4 className="text-4xl md:text-5xl mb-8 font-oswald font-bold gold-gradient-text">Annil Shharma</h4>
           
           <div className="flex items-center mb-8">
             <div className="w-20 h-20 sm:w-24 sm:h-24 relative shrink-0">
@@ -124,7 +124,7 @@ const About = () => {
           </div>
           
           <p className="text-base opacity-90 leading-relaxed max-w-md">
-            Born in Edinburgh, Scotland. Anil Sharma is a result-focused individual with 28+ years of experience in the creative field producing and managing creative work for prestigious brands across Automotive, Apparel, Fashion, Telecom, Aviation, FMCG, CPG, and Oil & Gas industries.
+            Born in Edinburgh, Scotland. Annil Shharma is a result-focused individual with 28+ years of experience in the creative field producing and managing creative work for prestigious brands across Automotive, Apparel, Fashion, Telecom, Aviation, FMCG, CPG, and Oil & Gas industries.
           </p>
                 
           {/* Accent line */}
