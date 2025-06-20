@@ -1,7 +1,7 @@
 import { useIntersectionObserver } from "@/hooks/use-intersection";
 import { useRef, useEffect } from "react";
 import anilImage from '../assets/anil-sharma-1.jpg';
-
+import signatureImage from '../assets/signature.png'; // Added signature image import
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -51,7 +51,6 @@ const About = () => {
           
           {/* Title and accent line - visible on mobile */}
           <div className="absolute w-full text-2x1 inset-x-0 top-20 p-6 md:p-10 text-center md:top-80">
-            {/* <div className="w-12 h-1 bg-gradient-to-r from-[#BF953F] to-[#FFC832] mb-4"></div> */}
             <h2 className="text-5xl md:text-8x1 font-bold gold-gradient-text leading-tight">
               CREATORS <br/>& <br/> COLLABORATORS
             </h2>
@@ -72,20 +71,14 @@ const About = () => {
         </div>
         
         <div className="relative z-10 max-w-lg mx-auto md:mx-0">
-          {/* Gold quote marks */}
-          {/* <div className="text-[#D4AF37] text-6xl font-serif opacity-40 absolute -top-8 -left-4">"</div> */}
-          
-          <p className="text-3xl gold-gradient-text md:text-4xl font-bold font-playfair  font-oswald mb-8 leading-relaxed text-opacity-90 px-4 top-0">
+          <p className="text-3xl gold-gradient-text md:text-4xl font-bold font-playfair font-oswald mb-8 leading-relaxed text-opacity-90 px-4 top-0">
             Services
           </p>
           
           <div className="flex items-center pl-4">
-            <div className="w-full h-full text-xs md:text-base w:h-full mr-2 ">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.<br/>Offering a comprehensive range of services, from initial estimate to location research, to casting prediction on set and post-production.</div>
+            <div className="w-full h-full text-xs md:text-base w:h-full mr-2 ">We have expertise in content production. Be it TVCs, Films, Documentaries, Social Media Content, OTT Content, Live Streams or Social Commerce - we bring you the best production talent.<br/>Offering a comprehensive range of services, from initial estimate to location research, to casting prediction on set and post-production.</div>
             <p className="text-[#FFC832] text-lg md:text-xl font-playfair"></p>
           </div>
-          
-          {/* Gold quote marks closing */}
-          {/* <div className="text-[#D4AF37] text-6xl font-serif opacity-40 absolute -bottom-12 -right-4">"</div> */}
         </div>
       </div>
       
@@ -110,7 +103,7 @@ const About = () => {
             <div className="w-20 h-20 sm:w-24 sm:h-24 relative shrink-0">
               <div className="absolute inset-0 border-2 border-[#D4AF37] rounded-full"></div>
               <img 
-                  src={anilImage} 
+                src={anilImage} 
                 alt="Director portrait" 
                 className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover object-center border border-[#BF953F]"
                 loading="lazy"
@@ -118,19 +111,27 @@ const About = () => {
             </div>
             
             <div className="ml-4 sm:ml-6 flex flex-col">
-              {/* <span className="text-[#D4AF37] text-sm tracking-wider">VISIONARY</span>
-              <span className="text-xs opacity-60">Film Director & Producer</span> */}
             </div>
           </div>
           
           <p className="text-base opacity-90 leading-relaxed max-w-md">
             Born in Edinburgh, Scotland. Annil Shharma is a result-focused individual with 28+ years of experience in the creative field producing and managing creative work for prestigious brands across Automotive, Apparel, Fashion, Telecom, Aviation, FMCG, CPG, and Oil & Gas industries.
           </p>
-                
+          
+          {/* Signature image */}
+          <div className="mt-10  max-w-xs w-40">
+            <img 
+              src={signatureImage} 
+              alt="Anil Sharma's signature" 
+              className="w-full h-auto object-contain"
+              loading="lazy"
+            />
+          </div>
+          
           {/* Accent line */}
-          <div className="w-24 h-0.5 bg-gradient-to-r from-[#D4AF37] to-transparent mt-12"></div>
+          <div className="w-28 h-0.5 bg-gradient-to-r from-[#D4AF37] to-transparent mt-2"></div>
         </div>
-       <div className="flex space-x-5 font-xl mt-8 font-#ffff">
+        <div className="flex space-x-5 font-xl mt-8 font-#ffff">
           <a
             href="https://x.com/AnilAliSharma?t=cOIjnx1NdTzYsFH8o6HoLw&s=09"
             className="text-xl text-[#D4AF37] hover:text-[#FFC832] transition-colors"
@@ -147,7 +148,6 @@ const About = () => {
           </a>
         </div>
       </div>
-     
     </section>
   );
 };

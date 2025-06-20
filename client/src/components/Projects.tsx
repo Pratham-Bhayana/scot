@@ -30,7 +30,7 @@ const Projects = () => {
     {
       id: 3,
       title: 'Ford Mustang',
-      videoUrl: '/assets/Ford-mustang.mp4',
+      // videoUrl: '/assets/Ford-mustang.mp4',
     },
 {
     id:4,
@@ -62,7 +62,7 @@ const Projects = () => {
             <div
               key={project.id}
               className="relative group rounded-2xl overflow-hidden shadow-xl border border-[#D4AF37]/20 gold-glow cursor-pointer transition-transform hover:scale-105"
-              onClick={() => openVideoModal(project.videoUrl)}
+              onClick={() => project.videoUrl && openVideoModal(project.videoUrl)}
             >
               <div className="relative w-full pt-[75%] bg-black">
                 <video
